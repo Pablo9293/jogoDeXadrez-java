@@ -1,11 +1,16 @@
 package application;
 
-import boardGame.Board;
+import jogo.JogoPiece;
 
 public class Program {
 
 	public static void main(String[] args) {
-		Board board = new Board( 8, 8);
+		
+		//instanciar a partida
+		JogoPiece JogoPiece = new JogoPiece();
+		UI.printBoard(JogoPiece.); // metodo para imprimir as peças
+			
+		
 	}
 
 }
